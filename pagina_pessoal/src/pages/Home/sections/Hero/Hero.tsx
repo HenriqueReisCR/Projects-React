@@ -1,10 +1,19 @@
+import { styled } from "@mui/material/styles";
+
+    const StyledHero = styled("div")(() => ({
+    backgroundColor: "red",
+    color: "red",
+    padding: "2rem"
+}));
+
 const Hero = () => {
-    
-    
-    
+
+
     return (
         <>
-            hero
+            <StyledHero>
+                Olá resre
+            </StyledHero>
         </>
     );
 };
